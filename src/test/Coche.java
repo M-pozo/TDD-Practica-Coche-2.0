@@ -4,12 +4,12 @@ public class Coche {
 
 	public Object velocidad;
 
-	public void acelerar(int aceleracion) {
+	public void acelerarMiguelPozo(int aceleracion) {
 		// TODO Auto-generated method stub
 		velocidad += aceleracion;
 	}
 
-	public void decelerar(int deceleracion) {
+	public void decelerarMiguelPozo(int deceleracion) {
 		// TODO Auto-generated method stub
 		velocidad -= deceleracion;
 		if (velocidad < 0) velocidad = 0;
