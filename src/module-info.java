@@ -6,4 +6,6 @@
  *
  */
 module TDDPracticaCoche {
+	requires org.junit.jupiter.api;
+	
 }
