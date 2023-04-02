@@ -1,14 +1,16 @@
 package test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.fail;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class CocheTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
+    public void testCrearCocheVelocidadCeroMiguelPozo(){
+        Coche nuevoCoche = new Coche();
+        Assertions.assertEquals(0, nuevoCoche.velocidad);
+    }
 
 }
