@@ -9,7 +9,7 @@ public class Coche {
 		velocidad += aceleracion;
 	}
 
-	public void decelera(int deceleracion) {
+	public void decelerar(int deceleracion) {
 		// TODO Auto-generated method stub
 		velocidad -= deceleracion;
 	}
